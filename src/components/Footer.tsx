@@ -73,23 +73,22 @@ const Footer: React.FunctionComponent = () => {
           <Link to="/">{config.title}</Link> &copy; {new Date().getFullYear()}
         </section>
         <SiteFooterNav>
-          <Link to="/">Latest Posts</Link>
-          {config.facebook && (
-            <a href={config.facebook} target="_blank" rel="noopener noreferrer">
-              Facebook
+          {config.github && (
+            <a href={config.github} target="_blank" rel="noopener noreferrer">
+             Github
             </a>
           )}
-          {config.twitter && (
-            <a href={config.twitter} target="_blank" rel="noopener noreferrer">
-              Twitter
+          {config.zhihu && (
+            <a href={config.zhihu} target="_blank" rel="noopener noreferrer">
+              知乎
             </a>
           )}
-
-          <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">
-            Ghost
-          </a>
-
-          <a href="/rss.xml">RSS</a>
+          {config.juejin && (
+            <a href={config.juejin} target="_blank" rel="noopener noreferrer">
+             掘金
+            </a>
+          )}
+          <a href="/rss.xml">RSS订阅</a>
         </SiteFooterNav>
       </div>
     </footer>

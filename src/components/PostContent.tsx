@@ -110,6 +110,7 @@ export const PostFullContent = styled.section`
     display: block;
     margin: 1.5em auto;
     max-width: 1040px;
+    width: 100%;
     height: auto;
   }
 
@@ -386,8 +387,8 @@ export const PostFullContent = styled.section`
   /* Taken from overreacted https://github.com/gaearon/overreacted.io/blob/942b41555f5e5ccbb5f93f6c26142cd90b314236/src/utils/global.css#L68 */
   code[class*='language-'],
   pre[class*='language-'] {
-    color: white;
-    background: none;
+    color: #c7254e;
+    background-color: #f9f2f4;
     font-family: Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace;
     font-feature-settings: normal;
     text-align: left;

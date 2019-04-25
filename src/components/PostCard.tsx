@@ -241,7 +241,7 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({ post }) => {
               </Link>
             </AuthorListItem>
           </AuthorList>
-          <ReadingTime>{post.timeToRead} min read</ReadingTime>
+          <ReadingTime>{post.timeToRead} 分钟阅读</ReadingTime>
         </PostCardMeta>
       </PostCardContent>
     </article>

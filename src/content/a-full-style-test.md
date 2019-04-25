@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A Full and Comprehensive Style Test
+title: Blog 功能完整测试
 image: img/testimg-cover.jpg
-author: Ghost
-date: 2018-09-30T07:03:47.149Z
+author: Helve
+date: 1970-01-01T07:03:47.149Z
 tags: 
   - Tests
 ---

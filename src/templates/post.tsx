@@ -271,6 +271,7 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
               <PostFullHeader>
                 <PostFullMeta>
                   <PostFullMetaDate dateTime={post.frontmatter.date}>
+                    {console.log(post.frontmatter.userDate)}
                     {post.frontmatter.userDate}
                   </PostFullMetaDate>
                   {post.frontmatter.tags &&
@@ -330,7 +331,7 @@ export default PageTemplate;
 
 export const query = graphql`
   query($slug: String, $primaryTag: String) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+    logo: file(relativePath: { eq: "img/logo.png" }) {
       childImageSharp {
         fixed {
           ...GatsbyImageSharpFixed
@@ -344,7 +345,7 @@ export const query = graphql`
       timeToRead
       frontmatter {
         title
-        userDate: date(formatString: "D MMMM YYYY")
+        userDate: date(formatString: "YYYY-MM-DD")
         date
         tags
         image {

@@ -38,7 +38,7 @@ export interface PostFullFooterRightProps {
 const PostFullFooterRight: React.FunctionComponent<PostFullFooterRightProps> = props => (
   <PostFullFooterRightDiv>
     <Link css={AuthorCardButton} to={`/author/${_.kebabCase(props.authorId)}/`}>
-      Read More
+      作者信息
     </Link>
   </PostFullFooterRightDiv>
 );

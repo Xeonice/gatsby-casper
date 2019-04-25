@@ -5,11 +5,11 @@
   facebook: ghost
   website: https://ghost.org/
   location: On a plane
-- id: Another Author
-  avatar: avatars/ghost.png
-  bio: This is another test author with a profile background image
+- id: Helve
+  avatar: avatars/helve.jpeg
+  bio: Persona 忠实爱好者
   twitter: TryGhost
   facebook: ghost
-  website: https://ghost.org/
-  location: On a plane
-  profile_image: img/alex-knight-326705-unsplash.jpg
+  website: https://github.com/Xeonice
+  location: 上海-青浦区
+  profile_image: img/helve-profile.jpg
