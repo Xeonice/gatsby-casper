@@ -21,11 +21,11 @@ import {
   SocialLink,
 } from '../styles/shared';
 import { PageContext } from './post';
-import Facebook from '../components/icons/facebook';
+import Github from '../components/icons/github';
 import Helmet from 'react-helmet';
 import config from '../website-config';
 import Website from '../components/icons/website';
-import Twitter from '../components/icons/twitter';
+import Zhihu from '../components/icons/zhihu';
 
 const HiddenMobile = css`
   @media (max-width: 500px) {
@@ -209,7 +209,7 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Twitter />
+                    <Zhihu />
                   </a>
                 )}
                 {author.facebook && (
@@ -221,7 +221,7 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Facebook />
+                    <Github />
                   </a>
                 )}
                 {/* TODO: RSS for author */}

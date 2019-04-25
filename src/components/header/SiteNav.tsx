@@ -6,8 +6,8 @@ import { css } from '@emotion/core';
 
 import { SocialLink } from '../../styles/shared';
 import config from '../../website-config';
-import Facebook from '../icons/facebook';
-import Twitter from '../icons/twitter';
+import Github from '../icons/github';
+import Zhihu from '../icons/zhihu';
 import SubscribeModal from '../subscribe/SubscribeOverlay';
 import SiteNavLogo from './SiteNavLogo';
 
@@ -148,32 +148,38 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
               <Link to="/about">关于</Link>
             </li>
             <li role="menuitem">
-              <Link to="/tags/getting-started/">建站初始教程</Link>
+              <Link to="/tags/react/">React</Link>
+            </li>
+            <li role="menuitem">
+              <Link to="/tags/java-script/">JavaScript</Link>
+            </li>
+            <li role="menuitem">
+              <Link to="/tags/front-end/">前端</Link>
             </li>
           </ul>
         </SiteNavLeft>
         <SiteNavRight>
           <SocialLinks>
-            {config.facebook && (
+            {config.github && (
               <a
                 css={SocialLink}
-                href={config.facebook}
+                href={config.github}
                 target="_blank"
-                title="Facebook"
+                title="Github"
                 rel="noopener noreferrer"
               >
-                <Facebook />
+                <Github />
               </a>
             )}
-            {config.twitter && (
+            {config.zhihu && (
               <a
                 css={SocialLink}
-                href={config.twitter}
-                title="Twitter"
+                href={config.zhihu}
+                title="Zhihu"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Twitter />
+                <Zhihu />
               </a>
             )}
           </SocialLinks>

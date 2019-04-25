@@ -477,6 +477,9 @@ const GlobalStyles = css`
   body {
     background: #f4f8fb;
   }
+  .iconfont {
+    font-size: 24px !important;
+  }
 `;
 
 const IndexLayout: React.FunctionComponent<IndexProps> = props => {
@@ -484,6 +487,7 @@ const IndexLayout: React.FunctionComponent<IndexProps> = props => {
     <div className={props.className}>
       <Helmet>
         <link rel="icon" href={favicon} type="image/x-icon" />
+        <link rel="stylesheet" href="http://at.alicdn.com/t/font_1162928_bclscewcopj.css" />
       </Helmet>
       <Global styles={GlobalStyles} />
       {props.children}

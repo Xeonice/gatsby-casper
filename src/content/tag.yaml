@@ -1,3 +1,6 @@
-- id: speeches
-  description: Some of the greatest words ever spoken.
-  image: img/speeches-cover.jpg
+- id: React
+  description: React 开发过程中踩过的坑
+- id: JavaScript
+  description: JavaScript 常常缩写为 "JS"，不过这货没中文名（也有人叫他脚本）。至于 JavaScript 和 Java 到底是什么关系，就像雷锋和雷锋塔的关系。
+- id: FrontEnd
+  description: 前端是开发界鄙视链最底层的存在～～

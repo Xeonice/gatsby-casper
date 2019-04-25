@@ -64,6 +64,7 @@ export const SocialLink = css`
 
   :hover {
     opacity: 1;
+    text-decoration: none;
   }
 
   svg {

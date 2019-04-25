@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Helve 的 Blog',
     description: '日常踩坑见闻',
-    siteUrl: 'http://www.helve.online/', // full path to blog - no ending slash
+    siteUrl: 'http://www.helve.online', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
