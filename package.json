@@ -1,9 +1,9 @@
 {
   "name": "gatsby-casper",
-  "description": "Casper for gatsby",
-  "version": "0.0.0",
+  "description": "Helve's Blog",
+  "version": "1.0.0",
   "private": true,
-  "author": "Scott Cooper <scttcper@gmail.com>",
+  "author": "DouglasDong <ad546971975@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

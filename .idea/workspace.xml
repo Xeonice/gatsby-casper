@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdd921a0-5619-4daa-822e-f3f836f953b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/icons/github.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/zhihu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/SiteNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/SiteNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/facebook.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/twitter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-04-21.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-04-21.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-06-02.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-06-02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-07-29.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-07-29.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-08-08.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-08-08.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-08-11.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-08-11.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-08-12.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-08-12.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-08-13.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-08-13.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-08-14.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-08-14.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-08-15.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-08-15.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-12-16.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-12-16.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/tag.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/tag.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/shared.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/shared.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/author.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/author.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/tags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/tags.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1358">
+            <state relative-caret-position="261">
               <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
@@ -61,9 +40,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/author.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-194">
+              <caret line="211" column="24" lean-forward="true" selection-start-line="211" selection-start-column="24" selection-end-line="211" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/shared.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2242">
+            <state relative-caret-position="180">
               <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -84,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/header/SiteNav.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
+            <state relative-caret-position="162">
               <caret line="156" column="51" lean-forward="true" selection-start-line="156" selection-start-column="51" selection-end-line="156" selection-end-column="51" />
             </state>
           </provider>
@@ -194,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/content/2018-04-21.md" />
         <option value="$PROJECT_DIR$/src/content/tag.yaml" />
         <option value="$PROJECT_DIR$/src/components/header/SiteNav.tsx" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -357,12 +358,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556106291783</updated>
       <workItem from="1556106293315" duration="10928000" />
-      <workItem from="1556181774319" duration="12140000" />
+      <workItem from="1556181774319" duration="12359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23068000" />
+    <option name="totallyTimeSpent" value="23287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -374,7 +375,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32923833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,7 +385,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32923833" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32923833" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -553,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@emotion/core/types/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -571,16 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/author.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="211" column="24" lean-forward="true" selection-start-line="211" selection-start-column="24" selection-end-line="211" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,26 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/tags.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1358">
-          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/shared.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2242">
-          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="905">
@@ -770,8 +734,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/SiteNav.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="162">
           <caret line="156" column="51" lean-forward="true" selection-start-line="156" selection-start-column="51" selection-end-line="156" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/shared.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/tags.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/author.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="211" column="24" lean-forward="true" selection-start-line="211" selection-start-column="24" selection-end-line="211" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
