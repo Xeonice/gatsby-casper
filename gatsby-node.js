@@ -1,8 +1,10 @@
 const path = require('path');
 const _ = require('lodash');
+const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
+  fmImagesToRelative(node) // convert image paths for gatsby images
 
   // Sometimes, optional fields tend to get not picked up by the GraphQL
   // interpreter if not a single content uses it. Therefore, we're putting them

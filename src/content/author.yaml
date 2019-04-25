@@ -7,7 +7,7 @@
   github: SilverHL
   website: https://silverhl.github.io/
   location: 深圳-南山区
-  profile_image: img/delusion-profile.jpg
+  profile_image: avatars/delusion-profile.jpg
 - id: Helve
   avatar: avatars/helve.jpeg
   bio: Persona 忠实爱好者
@@ -17,4 +17,4 @@
   github: Xeonice
   website: https://github.com/Xeonice
   location: 上海-青浦区
-  profile_image: img/helve-profile.jpg
+  profile_image: avatars/helve-profile.jpg

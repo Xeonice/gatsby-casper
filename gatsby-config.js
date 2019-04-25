@@ -23,7 +23,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'content',
-        path: path.join(__dirname, 'src', 'content'),
+        path: `${__dirname}/src/content`,
       },
     },
     {
@@ -44,6 +44,11 @@ module.exports = {
           },
           'gatsby-remark-smartypants',
           'gatsby-remark-abbr',
+          // gatsby-remark-relative-images must
+          // go before gatsby-remark-images
+          {
+            resolve: 'gatsby-remark-relative-images',
+          },
           {
             resolve: 'gatsby-remark-images',
             options: {
