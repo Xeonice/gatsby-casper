@@ -1,5 +1,5 @@
 - id: Delusion
-  avatar: avatars/ghost.png
+  avatar: avatars/delusion.jpg
   bio: bla...blabla
   twitter: TryGhost
   facebook: ghost
@@ -7,6 +7,7 @@
   github: SilverHL
   website: https://silverhl.github.io/
   location: 深圳-南山区
+  profile_image: img/delusion-profile.jpg
 - id: Helve
   avatar: avatars/helve.jpeg
   bio: Persona 忠实爱好者
