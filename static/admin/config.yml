@@ -5,8 +5,8 @@ backend:
     - admin
     - editor
 
-media_folder: src/content/img
-public_folder: src/content
+media_folder: static/asset
+public_folder: /asset
 
 collections:
   - name: blog
