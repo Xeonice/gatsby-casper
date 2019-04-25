@@ -16,7 +16,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     preview_path: blog/{{slug}}
     fields:
-      - {label: "tamplate", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "tamplate", name: "layout", widget: "hidden", default: "post"}
       - {label: "title", name: "title", widget: "string"}
       - {label: "date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
