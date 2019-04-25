@@ -9,12 +9,11 @@ media_folder: static/asset
 public_folder: /asset
 
 collections:
-  - name: blog
+  - name: post
     label: Blog
     folder: src/content
     create: true
-    slug: "{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    preview_path: blog/{{slug}}
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "tamplate", name: "layout", widget: "hidden", default: "post"}
       - {label: "title", name: "title", widget: "string"}
