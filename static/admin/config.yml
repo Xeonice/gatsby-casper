@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: src/content
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}gst" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - {label: "tamplate", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "date", name: "date", widget: "datetime"}
+      - {label: "image", name: "image", widget: image}
+      - {label: "author", name: "author", widget: "string"}
+      - {label: "body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
