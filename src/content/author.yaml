@@ -1,15 +1,19 @@
-- id: Ghost
+- id: Delusion
   avatar: avatars/ghost.png
-  bio: The professional publishing platform
+  bio: bla...blabla
   twitter: TryGhost
   facebook: ghost
-  website: https://ghost.org/
-  location: On a plane
+  zhihu: https://www.zhihu.com/people/bu-chen-64/activities
+  github: SilverHL
+  website: https://silverhl.github.io/
+  location: 深圳-南山区
 - id: Helve
   avatar: avatars/helve.jpeg
   bio: Persona 忠实爱好者
   twitter: TryGhost
   facebook: ghost
+  zhihu: https://www.zhihu.com/people/flin-code
+  github: Xeonice
   website: https://github.com/Xeonice
   location: 上海-青浦区
   profile_image: img/helve-profile.jpg

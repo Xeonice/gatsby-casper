@@ -95,6 +95,8 @@ interface AuthorTemplateProps {
       website?: string;
       twitter?: string;
       facebook?: string;
+      github?: string;
+      zhihu?: string;
       location?: string;
       // eslint-disable-next-line @typescript-eslint/camelcase
       profile_image?: {
@@ -182,9 +184,9 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
                   </div>
                 )}
                 <div css={HiddenMobile}>
-                  {totalCount > 1 && `${totalCount} posts`}
-                  {totalCount === 1 && '1 post'}
-                  {totalCount === 0 && 'No posts'} <Bull>•</Bull>
+                  {totalCount > 1 && `${totalCount} 篇文章`}
+                  {totalCount === 1 && '1 篇文章'}
+                  {totalCount === 0 && '无文章'} <Bull>•</Bull>
                 </div>
                 {author.website && (
                   <div>
@@ -200,11 +202,11 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
                     </a>
                   </div>
                 )}
-                {author.twitter && (
+                {author.zhihu && (
                   <a
                     className="social-link-tw"
                     css={SocialLink}
-                    href={`https://twitter.com/${author.twitter}`}
+                    href={author.zhihu}
                     title="Twitter"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -212,12 +214,12 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
                     <Zhihu />
                   </a>
                 )}
-                {author.facebook && (
+                {author.github && (
                   <a
                     className="social-link-fb"
                     css={SocialLink}
-                    href={`https://www.facebook.com/${author.facebook}`}
-                    title="Facebook"
+                    href={`https://github.com/${author.github}`}
+                    title="Github"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -269,6 +271,8 @@ export const pageQuery = graphql`
       twitter
       bio
       facebook
+      github
+      zhihu
       location
       profile_image {
         childImageSharp {

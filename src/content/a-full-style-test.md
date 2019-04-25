@@ -2,7 +2,7 @@
 layout: post
 title: Blog 功能完整测试
 image: img/testimg-cover.jpg
-author: Helve
+author: Delusion
 date: 1970-01-01T07:03:47.149Z
 tags: 
   - Tests

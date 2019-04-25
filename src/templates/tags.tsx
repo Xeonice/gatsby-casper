@@ -57,6 +57,7 @@ const Tags: React.FunctionComponent<TagTemplateProps> = props => {
   const tagData = props.data.allTagYaml.edges.find(
     n => n.node.id.toLowerCase() === tag.toLowerCase(),
   );
+  debugger;
 
   return (
     <IndexLayout>

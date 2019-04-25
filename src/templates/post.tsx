@@ -208,7 +208,6 @@ export interface PageContext {
 }
 
 const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
-  debugger;
   const post = props.data.markdownRemark;
   let width = '';
   let height = '';
