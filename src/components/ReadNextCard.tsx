@@ -201,7 +201,7 @@ const ReadNextCard: React.FunctionComponent<ReadNextProps> = props => {
           </ReadNextDivider>
           <ReadNextCardContent>
             <ul>
-              {props.relatedPosts.edges.map(n => {
+              {props.relatedPosts.edges.slice(0, 3).map(n => {
                 return (
                   <li key={n.node.frontmatter.title}>
                     <Link to={n.node.fields.slug}>{n.node.frontmatter.title}</Link>

@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdd921a0-5619-4daa-822e-f3f836f953b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/2018-04-21.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/2018-06-02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/2018-07-29.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/2018-08-08.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/2018-08-11.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/2018-08-13.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/2018-08-14.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-08-15.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-08-15.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2018-12-16.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-12-16.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2019-02-17.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2019-02-17.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2019-03-29.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2019-03-29.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/using-the-ghost-editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2018-08-12.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/welcome.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ReadNextCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReadNextCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,46 +17,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/content/2018-12-16.md">
+        <entry file="file://$PROJECT_DIR$/gatsby-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="-630">
+              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/ReadNextCard.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="203" column="62" lean-forward="true" selection-start-line="203" selection-start-column="62" selection-end-line="203" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/content/2018-08-15.md">
+        <entry file="file://$PROJECT_DIR$/src/templates/post.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="127">
+              <caret line="376" column="6" selection-start-line="376" selection-start-column="6" selection-end-line="376" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/content/2018-08-14.md">
+        <entry file="file://$PROJECT_DIR$/gatsby-node.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="163">
+              <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/content/2018-08-13.md">
+        <entry file="file://$PROJECT_DIR$/gatsby-browser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/content/2018-08-12.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="62">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/content/2018-04-21.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="134">
@@ -123,10 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logo</find>
-      <find>SiteTitle</find>
-      <find>ghost-logo</find>
-      <find>menuitem</find>
       <find>SubscribeButton</find>
       <find>Another Author</find>
       <find>ReadingTime</find>
@@ -152,6 +144,11 @@
       <find>{% endcodeblock %}</find>
       <find>picture</find>
       <find>image</find>
+      <find>查看</find>
+      <find>ReadNextCard</find>
+      <find>data</find>
+      <find>allMarkdownRemark</find>
+      <find>relatedPosts</find>
     </findStrings>
     <replaceStrings>
       <replace>logo</replace>
@@ -164,10 +161,10 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/src/components</dir>
       <dir>$PROJECT_DIR$/srcAuthorCardButton</dir>
-      <dir>$PROJECT_DIR$</dir>
-      <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/src/content</dir>
       <dir>$PROJECT_DIR$/src/templates</dir>
+      <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -184,14 +181,12 @@
         <option value="$PROJECT_DIR$/src/components/PostFullFooterRight.tsx" />
         <option value="$PROJECT_DIR$/src/components/subscribe/SubscribeForm.tsx" />
         <option value="$PROJECT_DIR$/src/components/subscribe/Subscribe.tsx" />
-        <option value="$PROJECT_DIR$/src/components/ReadNextCard.tsx" />
         <option value="$PROJECT_DIR$/src/website-config.ts" />
         <option value="$PROJECT_DIR$/src/components/Footer.tsx" />
         <option value="$PROJECT_DIR$/src/content/emancipation-proclamation.md" />
         <option value="$PROJECT_DIR$/src/content/github-link.md" />
         <option value="$PROJECT_DIR$/src/content/purpose-of-education.md" />
         <option value="$PROJECT_DIR$/src/content/a-full-style-test.md" />
-        <option value="$PROJECT_DIR$/src/templates/post.tsx" />
         <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/src/components/PostContent.tsx" />
         <option value="$PROJECT_DIR$/gatsby-browser.js" />
@@ -211,6 +206,8 @@
         <option value="$PROJECT_DIR$/src/content/2018-07-29.md" />
         <option value="$PROJECT_DIR$/src/content/2018-06-02.md" />
         <option value="$PROJECT_DIR$/src/content/2018-04-21.md" />
+        <option value="$PROJECT_DIR$/src/templates/post.tsx" />
+        <option value="$PROJECT_DIR$/src/components/ReadNextCard.tsx" />
       </list>
     </option>
   </component>
@@ -260,7 +257,7 @@
               <item name="gatsby-casper" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-casper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gatsby-casper" type="b2602c69:ProjectViewProjectNode" />
@@ -340,24 +337,24 @@
       <option name="presentableId" value="Default" />
       <updated>1556106291783</updated>
       <workItem from="1556106293315" duration="10928000" />
-      <workItem from="1556181774319" duration="4572000" />
+      <workItem from="1556181774319" duration="6327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15500000" />
+    <option name="totallyTimeSpent" value="17255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32923833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,16 +499,6 @@
     <entry file="file://$PROJECT_DIR$/gatsby-browser_scsslint_tmp3563861950332514017.js" />
     <entry file="file://$PROJECT_DIR$/gatsby-browser_scsslint_tmp1920388932050669028.js" />
     <entry file="file://$PROJECT_DIR$/gatsby-browser_scsslint_tmp1920388932050669028_scsslint_tmp9210497093353993166.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/ReadNextCard.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1457">
@@ -526,16 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11966">
           <caret line="391" column="82" selection-start-line="391" selection-start-column="82" selection-end-line="391" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-browser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3535">
@@ -596,13 +566,6 @@
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -627,16 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/post.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="213" column="23" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,6 +674,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/post.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="376" column="6" selection-start-line="376" selection-start-column="6" selection-end-line="376" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ReadNextCard.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="203" column="62" lean-forward="true" selection-start-line="203" selection-start-column="62" selection-end-line="203" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

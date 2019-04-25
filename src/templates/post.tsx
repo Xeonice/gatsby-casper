@@ -208,6 +208,7 @@ export interface PageContext {
 }
 
 const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
+  debugger;
   const post = props.data.markdownRemark;
   let width = '';
   let height = '';
@@ -373,7 +374,6 @@ export const query = graphql`
     }
     relatedPosts: allMarkdownRemark(
       filter: { frontmatter: { tags: { in: [$primaryTag] }, draft: { ne: true } } }
-      limit: 3
     ) {
       totalCount
       edges {
