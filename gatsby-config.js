@@ -10,7 +10,6 @@ module.exports = {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
   plugins: [
-    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-sharp',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -43,7 +42,6 @@ module.exports = {
               noInlineHighlight: true,
             },
           },
-          'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
           'gatsby-remark-abbr',
           {
@@ -53,9 +51,16 @@ module.exports = {
               quality: 90,
             },
           },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'static',
+            },
+          },
         ],
       },
     },
+    'gatsby-plugin-netlify-cms',
     'gatsby-transformer-json',
     {
       resolve: 'gatsby-plugin-canonical-urls',
