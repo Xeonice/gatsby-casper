@@ -27,7 +27,6 @@ Given an array A of positive integers, call a (contiguous, not necessarily disti
 ## Code
 
 ```cpp
-
 int subarraysWithKDistinct(vector<int>& A, int k){int n = A.size();
 
 int res;
