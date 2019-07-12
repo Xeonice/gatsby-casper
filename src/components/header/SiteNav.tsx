@@ -156,6 +156,12 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
             <li role="menuitem">
               <Link to="/tags/front-end/">前端</Link>
             </li>
+            <li role="menuitem">
+              <Link to="/tags/cpp/">C++</Link>
+            </li>
+            <li role="menuitem">
+              <Link to="/tags/leet-code/">LeetCode</Link>
+            </li>
           </ul>
         </SiteNavLeft>
         <SiteNavRight>
