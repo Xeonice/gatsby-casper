@@ -7,3 +7,8 @@
 - id: aaaa
   description: aaaa
   image: img/speeches-cover.jpg
+- id: C++
+  description: 就是那个谁都听说过但是谁都不会的语言
+- id: LeetCode
+  description: 少年你渴望力量吗？
+
