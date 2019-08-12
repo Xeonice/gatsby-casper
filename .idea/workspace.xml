@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdd921a0-5619-4daa-822e-f3f836f953b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/2019-08-11-leetcode-数组部分总结分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/2019-08-11-leetcode-数组部分总结分析.md" afterDir="false" />
-    </list>
+    <list default="true" id="fdd921a0-5619-4daa-822e-f3f836f953b0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +159,7 @@
       <workItem from="1562909338398" duration="5279000" />
       <workItem from="1563872812826" duration="482000" />
       <workItem from="1563875277837" duration="767000" />
-      <workItem from="1565508231670" duration="1782000" />
+      <workItem from="1565508231670" duration="2214000" />
     </task>
     <servers />
   </component>
