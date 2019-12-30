@@ -7,7 +7,7 @@ tags:
   - LeetCode
 image: /asset/v2-ea347d702eef0afb7dafd75d214d46f7_hd.jpg
 ---
-动态规划作为面试界的一项必考点，常年出现于各类培训课程中，充当课程压轴 / 高深算法代表，这让我一度以为动态规划是一项非常难以掌握的知识点，看一看 [动态规划](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92 "动态规划") 的维基百科介绍：
+动态规划作为面试界的一项必考点，常年出现于各类培训课程中，充当课程压轴 / 高深算法代表，这让我一度以为动态规划是一项非常难以掌握的知识点，看一看 [动态规划](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92) 的维基百科介绍：
 
 > 动态规划在寻找有很多重叠子问题的情况的最佳解时有效，它将问题重新组合成子问题。为了避免重复解决这些子问题，它们的结果都逐渐被计算并被储存，从简单的问题到整个问题被解决。因此，动态规划储存递归时的结果，因而不会在解决同样的问题时浪费时间。
 > 
@@ -15,15 +15,15 @@ image: /asset/v2-ea347d702eef0afb7dafd75d214d46f7_hd.jpg
 
 emmm……存储……组合……自己算自己？？？
 
-![一脸懵逼](http://imagetemp.oss-cn-beijing.aliyuncs.com/blog/2019-12-30-074956.jpg "一脸懵逼")
+![一脸懵逼](http://imagetemp.oss-cn-beijing.aliyuncs.com/blog/2019-12-30-074956.jpg)
 
 然后刷 `leetcode` 的时候看了看斐波那契数列的 `dp` 解决方案……
 
-![九脸懵逼](http://imagetemp.oss-cn-beijing.aliyuncs.com/blog/2019-12-30-075001.jpg "九脸懵逼")
+![九脸懵逼](http://imagetemp.oss-cn-beijing.aliyuncs.com/blog/2019-12-30-075001.jpg)
 
 这什么玩意……简单解法它不香吗？？？
 
-这个问题困扰了我很长时间，期间一直在忙活业务代码的事情，然后突然有一天刷知乎看到了这篇文章 [如何理解动态规划](https://www.zhihu.com/question/39948290/answer/883302989 "如何理解动态规划")。
+这个问题困扰了我很长时间，期间一直在忙活业务代码的事情，然后突然有一天刷知乎看到了这篇文章 [如何理解动态规划](https://www.zhihu.com/question/39948290/answer/883302989)。
 
 然后再看了看 `wikipedia` 上面的定义，然后突然间意识到这玩意好像名字取的有问题……
 
